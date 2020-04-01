@@ -1,0 +1,20 @@
+{
+  "name": "homework_6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "statistic": "node ./src/getStatisticCOVID-19.js",
+    "nasa": "node ./src/requestNasa.js",
+    "link": "node ./src/getShortLink.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "download": "^7.1.0",
+    "fs-extra": "^9.0.0",
+    "ora": "^4.0.3"
+  }
+}
